@@ -1,0 +1,7 @@
+# Ignore files and directories that should not be included in the Docker build context.
+# These are typically generated at runtime and managed by volumes.
+.git/
+data/
+.gitignore
+*.bat
+*.md

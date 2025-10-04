@@ -1,0 +1,16 @@
+filename = 'sound-physics-remastered-fabric-1.21.6-1.4.14.jar'
+name = 'Sound Physics Remastered'
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.6' ]
+x-prismlauncher-release-type = 'alpha'
+
+[download]
+hash = '368dc39fea37c7afc44cb318ee335c35d52fbee534df9a47054b7634ca464bec9a77dba8cfc559957d9597c89c84c54f8779f99862435dea0aa46483bc94605c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/qyVF9oeo/versions/tSRYMFnW/sound-physics-remastered-fabric-1.21.6-1.4.14.jar'
+
+[update.modrinth]
+mod-id = 'qyVF9oeo'
+version = 'tSRYMFnW'

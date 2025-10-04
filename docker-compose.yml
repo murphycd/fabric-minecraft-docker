@@ -1,0 +1,26 @@
+services:
+  minecraft:
+    build: .
+    container_name: fabric-minecraft-server
+    restart: unless-stopped
+    # Add a stop_grace_period to give the server enough time to save and shut down
+    # after receiving the 'stop' command. 30 seconds should be plenty.
+    stop_grace_period: 30s
+    
+    ports:
+      # Maps the host port to the container's port.
+      # It will use the MC_PORT from your shell environment, or default to 25565 if it's not set.
+      - "${MC_PORT:-25565}:25565/tcp"
+      - "${MC_PORT:-25565}:25565/udp"
+
+    # All server data is stored in a single 'data' directory on the host.
+    volumes:
+      - ./data:/server/data
+
+    # Pass the MC_PORT variable into the container's environment.
+    environment:
+      - MC_PORT=${MC_PORT:-25565}
+
+    # Keep STDIN open and allocate a TTY to allow attaching to the server console.
+    stdin_open: true
+    tty: true

@@ -1,0 +1,16 @@
+filename = 'fastback-0.25.0+1.21.6-fabric.jar'
+name = 'Fast Backups'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.6' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd389fb5111e397d31a0814ec2eea0867c2f4162f384e2984a82a5d3b5bb1cfbeb35e8db0725ca50d81c7de121d111b495ea4a79d59db383a0100ebfb2971e8bf'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ZHKrK8Rp/versions/ql6o5F4S/fastback-0.25.0%2B1.21.6-fabric.jar'
+
+[update.modrinth]
+mod-id = 'ZHKrK8Rp'
+version = 'ql6o5F4S'

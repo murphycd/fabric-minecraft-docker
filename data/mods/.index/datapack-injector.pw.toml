@@ -1,0 +1,16 @@
+filename = 'datapack-injector-fabric-1.0.0+1.21.6.jar'
+name = 'Datapack Injector'
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.6' ]
+x-prismlauncher-release-type = 'alpha'
+
+[download]
+hash = 'beced43bcca33fa421da362b804a0c87233b65ee268854dc9cb28eeb1df0bae063ce8bec9f01f91b9233755fa36678a2efca2e84c78138dc3eca50f455a83e07'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/9nFfpUyI/versions/w0ZOgy8J/datapack-injector-fabric-1.0.0%2B1.21.6.jar'
+
+[update.modrinth]
+mod-id = '9nFfpUyI'
+version = 'w0ZOgy8J'

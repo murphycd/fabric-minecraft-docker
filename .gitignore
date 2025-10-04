@@ -1,0 +1,14 @@
+*
+!data/datapacks/
+!mods/.index/*.toml
+!data/update_mods.bat
+!data/update_mods.sh
+!data/default-server.properties
+!.dockerignore
+!.env
+!.gitignore
+!docker-compose.yml
+!Dockerfile
+!README.md
+!start_linux.sh
+!start_windows.bat
