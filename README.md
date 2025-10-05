@@ -80,3 +80,31 @@ Use these commands from your project's root directory to manage the containerize
 
   # To detach WITHOUT stopping the server, use the escape sequence: Ctrl+P, then Ctrl+Q
   ```
+
+## Post-start admin commands
+
+I use the following commands after creating a new server/world.
+
+```
+chunky start overworld circle 0 0 5000
+chunky start the_nether circle 0 0 2000
+chunky start the_end circle 0 0 2000
+gamerule minecartMaxSpeed 50
+gamerule spawnRadius 0
+gamerule snowAccumulationHeight 7
+function blazeandcave:config/intro_msg_off
+function blazeandcave:config/item_rewards_off
+function blazeandcave:config/exp_rewards_off
+function blazeandcave:config/trophies_off
+backup init
+backup local
+backup set shutdown-action local
+backup set autoback-action local
+backup set autoback-wait 30
+backup set retention-policy gfs
+
+# Restoring backups:
+backup list
+backup restore <name>
+# Note: restore command will output the location of the restored backup, you have to manually delete the current world and copy the restored folder
+```
