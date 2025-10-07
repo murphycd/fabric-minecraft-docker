@@ -1,0 +1,16 @@
+filename = 'servux-fabric-1.21.8-0.7.3.jar'
+name = 'Servux'
+side = 'server'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.6', '1.21.7', '1.21.8' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '66917c51d7ec44c14e89ae8d289f30aa889b250bcc649ccc9726f6078a8835ab82cc5c73026b20354407b0235e9b0d0380239f455498476ad4a473c18f2c0250'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/zQhsx8KF/versions/zvqUUU4K/servux-fabric-1.21.8-0.7.3.jar'
+
+[update.modrinth]
+mod-id = 'zQhsx8KF'
+version = 'zvqUUU4K'
